@@ -1,4 +1,9 @@
 {
   "version": 2,
-  "buildCommand": "node index.js"
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@vercel/node"
+    }
+  ]
 }

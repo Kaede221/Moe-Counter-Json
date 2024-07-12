@@ -96,3 +96,5 @@ app.listen(3000, () => {
   // 正常运行
   console.log(`正常运行中！当前端口为 3000`);
 });
+
+module.exports = app;
