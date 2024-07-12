@@ -1,11 +1,10 @@
 {
   "name": "moe-counter",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "一个萌萌的计数器，基于原版进行修改",
   "main": "index.js",
   "scripts": {
-    "serve": "node index.js",
-    "build": "node index.js"
+    "serve": "node index.js"
   },
   "keywords": [
     "计数器",
