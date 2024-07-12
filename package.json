@@ -1,19 +1,26 @@
 {
   "name": "moe-counter",
   "version": "1.0.0",
+  "description": "一个萌萌的计数器，基于原版进行修改",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "serve": "node index.js"
   },
+  "keywords": [
+    "计数器",
+    "counter",
+    "cute"
+  ],
   "author": "Kaede",
-  "license": "ISC",
-  "description": "",
+  "license": "MIT",
   "dependencies": {
-    "next": "^14.2.5",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "compression": "^1.7.4",
+    "config-yml": "^0.10.3",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "image-size": "^1.1.1",
+    "mime-types": "^2.1.35",
+    "path": "^0.12.7",
+    "pug": "^3.0.2"
   }
 }
