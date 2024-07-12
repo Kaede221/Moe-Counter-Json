@@ -92,9 +92,7 @@ async function getCountByName(name) {
 }
 
 // 监听
-app.listen(3000, () => {
+app.listen(3008,() => {
   // 正常运行
-  console.log(`正常运行中！当前端口为 3000`);
+  console.log(`正常运行中！当前端口为 3008`);
 });
-
-module.exports = app;
