@@ -4,8 +4,6 @@
 
 // 引入fs
 const fs = require('fs')
-// 引入config-yml，用来编写配置文件，方便进行修改
-const config = require('config-yml')
 // 引入express并创建对象，这个肯定要用的不说了
 const express = require('express')
 const app = express()
@@ -96,7 +94,7 @@ async function getCountByName(name) {
 // getCountByName('kaede')
 
 // 监听
-app.listen(config.app.port || 3000, () => {
+app.listen(3000, () => {
     // 正常运行
     console.log(`正常运行中！当前端口为 ${config.app.port}`);
 })
