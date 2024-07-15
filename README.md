@@ -1,5 +1,11 @@
 # moe-counter-json
 
+当前直接部署在我的服务器中了, 你可以直接使用:
+
+[http://count.fumoe.top/](http://count.fumoe.top/)
+
+![](http://count.fumoe.top/get/@index?theme=rule34)
+
 ## 抛弃DB，使用JSON进行重构
 
 为了方便一些，同时减少代码体积，我构建了这个JSON版本的Moe-Counter，基于[原版](https://github.com/journey-ad/Moe-counter)，但是简单于原版（当然啦，还是要支持原作者哦！）
